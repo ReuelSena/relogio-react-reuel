@@ -1,0 +1,58 @@
+.Body-app {
+    background-color: #ffffff;
+    
+}
+
+
+
+.img-top {
+    margin-left: 250px;
+}
+
+.App-titulo {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 55px;
+    background-color: #142142;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #142142;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 15px;
+    padding: 20px;
+    line-height: 15px;
+    border-radius: 50px;
+    
+    
+
+}
+
+.button-Container {
+  height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.Footer-text {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 25px;
+    background-color: #142142;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}

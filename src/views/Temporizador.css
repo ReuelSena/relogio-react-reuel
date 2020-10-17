@@ -1,0 +1,119 @@
+.Body-temporizador{
+    background-color: #ffffff;
+    justify-content: center;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.Button-up {
+    margin: 0 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #142142;
+    padding: 10px 23px;
+    color: #142142;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.Button-down {
+    margin: 0 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #142142;
+    padding: 10px 23px;
+    color: #142142;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.Countdown-label {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .Countdown-display {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: aqua;
+  }
+
+  .Temporizador-display {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #142142;
+    font-weight: bolder;
+  }
+
+  .Temporizador-title {
+    color: #142142;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Texto-itens {
+    color: #142142;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 27px;
+    
+
+}
+
+.Texto-itens-container {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -15px;
+}
+
+.Btn-Tcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.Btn-temporizador {
+    font-size: 70px;
+    font-family: monospace;
+    padding: 15px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-color: #142142;
+    border-radius: 10px;
+    color: #142142;
+}
+
+.Btn-temporizador-reset {
+    font-size: 70px;
+    font-family: monospace;
+    padding: 15px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-color: #ffa600;
+    border-radius: 10px;
+    color: #ffa600;
+}
+.Btn-temporizador-parar {
+    font-size: 70px;
+    font-family: monospace;
+    padding: 15px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-color: #ff0000;
+    border-radius: 10px;
+    color: #ff0000;
+}

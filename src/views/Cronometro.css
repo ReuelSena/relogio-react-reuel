@@ -1,0 +1,119 @@
+.Body-cronometro{
+    background-color: #ffffff;
+    justify-content: center;
+    flex: 1;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 220px;
+}
+
+.Cronometro-title {
+    color: #142142;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Cronometro-display {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 75px;
+    color: #142142;
+    font-weight: bolder;
+    height: em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Texto-itens-container-cronometro {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -15px;
+}
+
+.Texto-itens-cronometro {
+    color: #142142;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.parciais {
+    color: #142142;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Btn-Ccontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.Btn-cronometro {
+    font-size: 50px;
+    font-family: monospace;
+    padding: 10px  15px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-color: #142142;
+    border-radius: 50px;
+    color: #142142;
+
+}
+
+.Btn-cronometro-reset {
+    font-size: 50px;
+    font-family: monospace;
+    padding: 10px 18px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-color: #ffa600;
+    border-radius: 50px;
+    color: #ffa600;
+}
+
+.Btn-cronometro-parar {
+    font-size: 50px;
+    font-family: monospace;
+    padding: 10px 18px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-color: #ff0000;
+    border-radius: 50px;
+    color: #ff0000;
+}
+
+.Btn-cronometro-parcial {
+    font-size: 30px;
+    font-family: monospace;
+    padding: 15px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: #008f58;
+    border-radius: 20px;
+    color: #008f58;
+}
